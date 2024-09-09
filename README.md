@@ -1,4 +1,4 @@
-# Energy Management for a dual motor battery electric vehicle using Model predictive control
+# Energy Management for a Dual Motor Battery Electric Vehicle using Model Predictive Control
 In this project, two separate strategy was deployed with the second building upon the first. 
 First nonlinear model predictive controller is designed to optimally distribute torque in a 2 motor battery electric vehicle. This performs a 50:50 split of the torque supplied by the motors. 
 Secondly, the nonlinear model predictive controller was augmented with rule-based logic which further processed the optimal torque produced by the MPC controller.
