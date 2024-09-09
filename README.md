@@ -11,7 +11,7 @@ However on incorporating the rule-based logic with the MPC, the controller perfo
 Compared to the baseline controller, While MPC strategy alone performed well in urban and/or aggressive drive cycle it didn't in highway/constant speed drive cycles. However, a combination of MPC and a rule-based approach showed improvements in all drive cycle.
 
 ## Model Description
-The vehicle model is based on MathWork's "Electric Vehicle 2EM" Reference application. See the link for detailed description of the model.
+The vehicle model is based on MathWork's "Electric Vehicle 2EM" Reference application. See the link for detailed description of the model [EV Reference Application](https://uk.mathworks.com/help/autoblks/ug/electric-vehicle-reference-application.html).
 
 ## Prediction Model
 The prediction model is the two states, tow input and 1 output model state function. The states are the speed (in m/s) and battery state of charge (in Ah). The inputs are the torque supplied by the two electric motors and the output is the speed of the vehicle. The speed is the output due to the tracking requirement of the controller.
