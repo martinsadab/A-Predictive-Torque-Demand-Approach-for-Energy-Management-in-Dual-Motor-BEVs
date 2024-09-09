@@ -27,6 +27,8 @@ The C/GMRES solver is used to solve the nonlinear MPC problem at each time step.
 
 ## Rule-based Logic
 
+![Rule-based Logic](./images/Rule-based Logic.png)
+
 ## Results
 
 
