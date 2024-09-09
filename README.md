@@ -35,4 +35,6 @@ The C/GMRES solver is used to solve the nonlinear MPC problem at each time step.
 
 ## Results
 
+## Bibliography
+
 
