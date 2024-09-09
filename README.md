@@ -16,7 +16,7 @@ The vehicle model is based on MathWork's "Electric Vehicle 2EM" Reference applic
 ## Prediction Model
 The prediction model is the two states, two inputs and one output model state function. The states are the speed (in m/s) and battery state of charge (in Ah). The inputs are the torque supplied by the two electric motors and the output is the speed of the vehicle. The speed is the prediction model output due to the tracking requirement of the controller.
 
-<img src="./Images/state-function.png" alt="State Function" width="250">
+<img src="./Images/state-function.png" alt="State Function" width="400">
 
 ## Cost Function
 The cost function is a quadratic cost term which penalises deviation form the reference speed (x_1,ref) and minimises the control effort (u_1 and u_2).
