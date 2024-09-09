@@ -14,13 +14,13 @@ Compared to the baseline controller, While MPC strategy alone performed well in 
 The vehicle model is based on MathWork's "Electric Vehicle 2EM" Reference application. See the link for detailed description of the model [EV Reference Application](https://uk.mathworks.com/help/autoblks/ug/electric-vehicle-reference-application.html).
 
 ## Prediction Model
-The prediction model is the two states, tow input and 1 output model state function. The states are the speed (in m/s) and battery state of charge (in Ah). The inputs are the torque supplied by the two electric motors and the output is the speed of the vehicle. The speed is the output due to the tracking requirement of the controller.
+The prediction model is the two states, two inputs and one output model state function. The states are the speed (in m/s) and battery state of charge (in Ah). The inputs are the torque supplied by the two electric motors and the output is the speed of the vehicle. The speed is the prediction model output due to the tracking requirement of the controller.
 
 ## Cost Function
 The cost function is a quadratic cost term which penalises deviation form the reference speed (x_1,ref) and minimises the control effort (u_1 and u_2).
 
 ## Constraints
-The constraints are made of hard input constraints determined by the motor specification, slip ratio and normal load on the wheels. The slip ratior and normal load constraints are implicit to the prediction model. Hence they will be shown not be violated in the analytically from the prediction model.
+The constraints are made of hard input constraints determined by the motor specification, slip ratio and normal load on the wheels. The slip ratio and normal load constraints are implicit to the prediction model. Hence they will be shown not be violated in the analytically from the prediction model.
 
 ## Solver
 The C/GMRES solver is used to solve the nonlinear MPC problem at each time step.
