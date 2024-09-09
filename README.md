@@ -10,15 +10,22 @@ However on incorporating the rule-based logic with the MPC, the controller perfo
 
 Compared to the baseline controller, While MPC strategy alone performed well in urban and/or aggressive drive cycle it didn't in highway/constant speed drive cycles. However, a combination of MPC and a rule-based approach showed improvements in all drive cycle.
 
-#Model Description
+##Model Description
+The vehicle model is based on MathWork's "Electric Vehicle 2EM" Reference application. See the link for detailed description of the model.
 
-#Prediction Model
+##Prediction Model
+The prediction model is the two states, tow input and 1 output model state function. The states are the speed (in m/s) and battery state of charge (in Ah). The inputs are the torque supplied by the two electric motors and the output is the speed of the vehicle. The speed is the output due to the tracking requirement of the controller.
 
-#Cost Function
+##Cost Function
+The cost function is a quadratic cost term which penalises deviation form the reference speed (x_1,ref) and minimises the control effort (u_1 and u_2).
 
-#Constraints
+##Constraints
+The constraints are made of hard input constraints determined by the motor specification, slip ratio and normal load on the wheels. The slip ratior and normal load constraints are implicit to the prediction model. Hence they will be shown not be violated in the analytically from the prediction model.
 
-#Solver
+##Solver
+The C/GMRES solver is used to solve the nonlinear MPC problem at each time step.
+
+##Rule-based Logic
 
 #Results
 
