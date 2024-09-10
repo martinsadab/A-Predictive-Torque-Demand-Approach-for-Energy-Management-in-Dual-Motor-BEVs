@@ -23,7 +23,7 @@ The prediction model is the two states, two inputs and one output model state fu
 ## Cost Function
 This is specified as a scalar which penalizes deviation from the output reference values (tracking) and minimizes the control effort. Below is the discretized cost function:
 
-<img src="./Images/cost-function.png" alt="Cost Function" width="400">
+<img src="./Images/cost-function.png" alt="Cost Function" width="500">
 
 Where x<sub>ref</sub> is the reference trajectory of the vehicle which contains the drive cycle information, Q and R are weighting matrices for penalizing deviation from the reference signal and control effort minimization respectively. x and u are the state and input vectors respectively.
 
