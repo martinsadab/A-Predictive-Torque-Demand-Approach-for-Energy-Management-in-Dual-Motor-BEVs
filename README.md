@@ -21,7 +21,11 @@ The prediction model is the two states, two inputs and one output model state fu
 <img src="./Images/state-function.png" alt="State Function" width="400">
 
 ## Cost Function
-The cost function is a quadratic cost term which penalises deviation form the reference speed (x_1,ref) and minimises the control effort (u_1 and u_2).
+This is specified as a scalar which penalizes deviation from the output reference values (tracking) and minimizes the control effort. Below is the discretized cost function:
+
+<img src="./Images/cost-function.png" alt="Cost Function" width="400">
+
+Where x_ref is the reference trajectory of the vehicle which contains the drive cycle information, Q and R are weighting matrices for penalizing deviation from the reference signal and control effort minimization respectively. x and u are the state and input vectors respectively.
 
 ## Constraints
 The constraints are made of hard input constraints determined by the motor specification, slip ratio and normal load on the wheels. The slip ratio and normal load constraints are implicit to the prediction model. Hence they will be shown not be violated in the analytically from the prediction model.
