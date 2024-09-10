@@ -25,7 +25,7 @@ This is specified as a scalar which penalizes deviation from the output referenc
 
 <img src="./Images/cost-function.png" alt="Cost Function" width="400">
 
-Where x_ref is the reference trajectory of the vehicle which contains the drive cycle information, Q and R are weighting matrices for penalizing deviation from the reference signal and control effort minimization respectively. x and u are the state and input vectors respectively.
+Where x<sub>ref</sub> is the reference trajectory of the vehicle which contains the drive cycle information, Q and R are weighting matrices for penalizing deviation from the reference signal and control effort minimization respectively. x and u are the state and input vectors respectively.
 
 ## Constraints
 The constraints are made of hard input constraints determined by the motor specification, slip ratio and normal load on the wheels. The slip ratio and normal load constraints are implicit to the prediction model. Hence they will be shown not be violated in the analytically from the prediction model.
