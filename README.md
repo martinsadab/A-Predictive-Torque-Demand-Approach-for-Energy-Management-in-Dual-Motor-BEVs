@@ -34,7 +34,7 @@ The constraints are made of hard input constraints determined by the motor speci
 This includes constraints on the torque command to powertrain transmission
 u<sub>i,min</sub> ≤ u<sub>i</sub>(k) ≤ u<sub>i,max</sub>    ∀k=0,1,2…p
 
-Where u<sub>1,min</sub> = -450 Nm and u<sub>1,max</sub>= 450 Nm 
+Where u<sub>1,min</sub> = -450 Nm and u<sub>1,max</sub>= 450 Nm </n>
       u<sub>2,min</sub>= -450 Nm and u<sub>2,max</sub>= 450 Nm.
       
 Where u<sub>1</sub> =  T<sub>em1</sub> and u<sub>2</sub> =  T<sub>em2</sub> 
