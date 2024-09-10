@@ -28,7 +28,15 @@ This is specified as a scalar which penalizes deviation from the output referenc
 Where x<sub>ref</sub> is the reference trajectory of the vehicle which contains the drive cycle information, Q and R are weighting matrices for penalizing deviation from the reference signal and control effort minimization respectively. x and u are the state and input vectors respectively.
 
 ## Constraints
-The constraints are made of hard input constraints determined by the motor specification, slip ratio and normal load on the wheels. The slip ratio and normal load constraints are implicit to the prediction model. Hence they will be shown not be violated in the analytically from the prediction model.
+The constraints are made of hard input constraints determined by the motor specification, slip ratio and normal load on the wheels. The slip ratio and normal load constraints are implicit to the prediction model. Hence it will be shown analytically that they are not violated and confirmed from simulation results.
+
+### Input Constraints
+This includes constraints on the torque command to powertrain transmission
+u<sub>i,min</sub> ≤ u<sub>i</sub>(k) ≤ u<sub>i,max</sub>    ∀k=0,1,2…p
+
+Where u<sub>1,min</sub> = -450 Nm and u<sub>1,max</sub>= 450 Nm and u<sub>2,min</sub>= -450 Nm and u<sub>2,max</sub>= 450 Nm.
+Where u<sub>1</sub> =  T<sub>em1</sub> and u<sub>2</sub> =  T<sub>em2</sub> 
+
 
 ## Solver
 The C/GMRES solver is used to solve the nonlinear MPC problem at each time step.
