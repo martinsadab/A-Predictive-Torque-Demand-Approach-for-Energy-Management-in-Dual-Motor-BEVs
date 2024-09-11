@@ -21,7 +21,8 @@ The prediction model is the two states, two inputs and one output model state fu
 
 <img src="./Images/state-function.png" alt="State Function" width="400">
 
-where the inputs: u<sub>1</sub> = T<sub>em1</sub>     u<sub>2</sub> = T<sub>em2</sub> 
+where the inputs: u<sub>1</sub> = T<sub>em1</sub> ;    u<sub>2</sub> = T<sub>em2</sub>. 
+
 The states of the model are speed, (v<sub>eh</sub>) and battery state of charge (SOC).
 
 ## Cost Function
