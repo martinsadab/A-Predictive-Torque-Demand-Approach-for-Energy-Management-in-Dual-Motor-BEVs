@@ -67,7 +67,7 @@ Figure 3: Energy performance comparison between baseline, MPC and MPC+RB control
 Below is the plot showing the energy improvements in Battery state of charge and in Miles per gallon equivalent compared to the baseline controller
 <img src="./Images/MPGe_plot.png" alt="MPGe" width="500">
 
-Figure 4: Energy efficiency improvement in Miles per gallon equivalent (MPGe) 
+Figure 4: Energy efficiency improvement in Miles per gallon equivalent (MPGe) compared to baseline
 
 ## Conclusion
 
