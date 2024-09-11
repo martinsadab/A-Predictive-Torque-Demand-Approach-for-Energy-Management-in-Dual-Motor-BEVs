@@ -58,11 +58,12 @@ Figure 2: Rule-based Logic
 ## Results
 <img src="./Images/energyWLTPC3.png" alt="Energy performance" width="500">       <img src="./Images/energyhwfet.png" alt="Energy performance" width="500">       <img src="./Images/energyftp75.png" alt="Energy performance" width="500">       <img src="./Images/energyus06.png" alt="Energy performance" width="500">
 
+Figure 3: Energy performance comparison between baseline, MPC and MPC+RB controllers
 ## Analysis of Results
 Below is the plot showing the energy improvements in Battery state of charge and in Miles per gallon equivalent.
 <img src="./Images/MPGe_plot.png" alt="MPGe" width="500">
 
-Figure 3: Energy efficiency improvement in Miles per gallon equivalent (MPGe) 
+Figure 4: Energy efficiency improvement in Miles per gallon equivalent (MPGe) 
 
 ## Conclusion
 
