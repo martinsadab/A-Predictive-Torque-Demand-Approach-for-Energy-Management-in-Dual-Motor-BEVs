@@ -61,10 +61,11 @@ Figure 2: Rule-based Logic
 ## Analysis of Results
 Below is the plot showing the energy improvements in Battery state of charge and in Miles per gallon equivalent.
 <img src="./Images/MPGe_plot.png" alt="MPGe" width="500">
+
 Figure 3: Energy efficiency improvement in Miles per gallon equivalent (MPGe) 
 
 ## Conclusion
-
+The results and analysis of the results shows that the more complex a drive cycle, the more opportunity to save energy using the model predictive control strategy. While urban and more aggressive city drive cycles (WLTP, FTP75 and US06) resulted in considerable energy savings, highway drive cycles with relatively constant speed (HWFET) and little to no stops resulted in losses or low energy improvements. This is not surprising because the speed and battery state of charge are the system states in the MPC prediction model. Hence, the MPC algorithm tends to better optimize when the variations in states are frequent. This implies that it will be difficult to further optimize the drivetrain based on parameters like speed and state of charge. One may need to consider more intrinsic properties of the system such as efficiency, battery current, voltage, motor losses etc.
 
 ## References
 1.	A. Biswas, P. G. Anselma & A. Emadi. (2022) Real-Time Optimal Energy Management of Multimode Hybrid Electric Powertrain With Online Trainable Asynchronous Advantage Actor–Critic Algorithm. IEEE Transactions on Transportation Electrification. 8 (2), 2676–2694. 10.1109/TTE.2021.3138330. 
