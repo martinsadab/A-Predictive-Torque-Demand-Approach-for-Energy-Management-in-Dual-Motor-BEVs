@@ -52,6 +52,32 @@ The C/GMRES solver is used to solve the nonlinear MPC problem at each time step.
 
 ## Results
 
-## Bibliography
+## References
+1.	A. Biswas, P. G. Anselma & A. Emadi. (2022) Real-Time Optimal Energy Management of Multimode Hybrid Electric Powertrain With Online Trainable Asynchronous Advantage Actor–Critic Algorithm. IEEE Transactions on Transportation Electrification. 8 (2), 2676–2694. 10.1109/TTE.2021.3138330. 
+2.	Angeli, D. (2012) Lecture Notes Stability and Control of Nonlinear Systems. 
+3.	Cavanini, L., Majecki, P., Grimble, M. J., Sasikumar, L. V., Li, R. & Hillier, C. (2022) Processor-In-the-Loop Demonstration of MPC for HEVs Energy Management System. Elsevier BV. 
+4.	Grimble, M. J. & Majecki, P. (2020) Nonlinear Industrial Control Systems Optimal Polynomial Systems and State-Space Approach. 1st edition. London, Springer London. 
+5.	He, Z., Shi, Q., Wei, Y., Zheng, J., Gao, B. & He, L. (2021) A Torque Demand Model Predictive Control Approach for Driving Energy Optimization of Battery Electric Vehicle. IEEE Transactions on Vehicular Technology. 70 (4), 3232–3242. 10.1109/TVT.2021.3066405. 
+6.	Huang, Y., Wang, H., Khajepour, A., He, H. & Ji, J. (2016) Model predictive control power management strategies for HEVs: A review. Journal of Power Sources. 341 91. 10.1016/j.jpowsour.2016.11.106. 
+7.	Illinois Institute of Technology. (nd) Stiffness and Stability. http://www.math.iit.edu/~fass/478578_Chapter_4.pdf [Accessed 27th August, 2024].
+8.	Karthika & Padmasuresh:. (2022) A Review on Optimal Energy Management Strategies for Electric Vehicles. 2022 Third International Conference on Intelligent Computing Instrumentation and Control Technologies (ICICICT). , IEEE.
+9.	Electric Vehicles: The Future of Development and Deployment. (2019) Directed by: S. Ladislaw, N. Albanese, G. Fitzgerald & J. Meckling. 
+10.	Louback, E., Biswas, A., Machado, F. & Emadi, A. (2024) A review of the design process of energy management systems for dual-motor battery electric vehicles. Renewable and Sustainable Energy Reviews. 193 10.1016/j.rser.2024.114293. 
+11.	MathWorks. (2024b) Matlab Simulink Challenge Project Hub. https://github.com/mathworks/MATLAB-Simulink-Challenge-Project-Hub/tree/main/projects/Energy%20Management%20for%20a%202-Motor%20BEV%20using%20Model-Predictive%20Control [Accessed 1 March, 2024].
+12.	MathWorks. (2024c) Model Predictive Control Toolbox: Nonlinear MPC design. https://uk.mathworks.com/help/mpc/nonlinear-mpc-design.html [Accessed 7th, September, 2024].
+13.	MathWorks. (2024a) Multistage Nonlinear Model Predictive Controller. https://uk.mathworks.com/help/mpc/ref/nlmpcmultistage.html?searchHighlight=implicit%20euler%20multistage%20nonlinear%20mpc&s_tid=srchtitle_support_results_1_implicit%2520euler%2520multistage%2520nonlinear%2520mpc [Accessed 27th, August, 2024a].
+14.	MathWorks. (2023b) PowerTrain Blockset Reference Guide. 
+15.	MathWorks. (2023a) PowerTrain User Guide. MathWorks. 
+16.	MathWorks. (2022) Virtual Vehicle Composer (2023b) .
+17.	Musardo, C., Rizzoni, G., Guezennec, Y. & Staccia, B. (2005) A-ECMS: An Adaptive Algorithm for Hybrid Electric Vehicle Energy Management. European Journal of Control. 11 (4-5), 509–524. 10.3166/ejc.11.509-524. 
+18.	Overview of Electric Vehicles in India. (2020) Directed by: NPTEL-NOC IIT Madras. 
+19.	Rajamani, R. (2012) Vehicle dynamics and control. 2nd edition. New York ;, Springer. 
+20.	Rawlings et al. (2022) Model Predictive Control: Theory, Computation and Design. Santa Barbara California, Nob Hill Publishing, LLC. 
+21.	Schwenzer, M., Ay, M., Bergs, T. & Abel, D. (2021) Review on model predictive control: an engineering perspective. The International Journal of Advanced Manufacturing Technology. 117 (5-6), 1327. 10.1007/s00170-021-07682-3. 
+22.	Thomas, P. (1999) Simulation of industrial processes for control engineers. Oxford ;, Butterworth-Heinemann. 
+23.	Wang, Z., Zhou, J. & Rizzoni, G. (2022) A review of architectures and control strategies of dual-motor coupling powertrain systems for battery electric vehicles. Elsevier BV. 
+24.	Yang, B., Guo, L., Ye, J. & Velni, J. M. (2021) Energy Management Strategy for Dual-Motor-Based Electric Vehicle Powertrain Using Nonlinear Model Predictive Control. 2021 IEEE Transportation Electrification Conference &amp; Expo (ITEC). , IEEE.
+25.	Zheng, Q., Tian, S. & Zhang, Q. (2020) Optimal Torque Split Strategy of Dual-Motor Electric Vehicle Using Adaptive Nonlinear Particle Swarm Optimization. Mathematical Problems in Engineering. 2020 1–21. 10.1155/2020/1204260. 
+
 
 
