@@ -41,14 +41,19 @@ Where u<sub>1</sub> =  T<sub>em1</sub> and u<sub>2</sub> =  T<sub>em2</sub>
 
 ### Normal load (F<sub>z</sub>) Constraint
 
+See report section 4.1.2 for the analytical proof which shows that the constraints will not be violated given the prediction model and current formulation. Also see results section 5.5 and 5.7 to see the results from simulation.
+
 ### Slip ratio (&sigma;) Constraint
+See report section 4.1.2 for the analytical proof which shows that the constraints will not be violated given the prediction model and current formulation. Also see results section 5.5 and 5.7 to see the results from simulation.
 
 ## Solver
 The C/GMRES solver is used to solve the nonlinear MPC problem at each time step.
 
 ## Rule-based Logic
+This is implemented as an if-else logic.  See its implementation in the Matlab function (Torque_Constraints) See figure 2 below for its description.
 
 <img src="./Images/rule-based-logic.png" alt="Rule-based Logic" width="500">
+Figure 2: Rule-based Logic
 
 ## Results
 
