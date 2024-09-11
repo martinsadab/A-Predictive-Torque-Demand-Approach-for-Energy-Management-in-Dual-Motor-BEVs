@@ -50,7 +50,7 @@ See report section 4.1.2 for the analytical proof which shows that the constrain
 The C/GMRES solver is used to solve the nonlinear MPC problem at each time step.
 
 ## Rule-based Logic
-This is implemented as an if-else logic.  See its implementation in the Matlab function (Torque_Constraints) See figure 2 below for its description.
+This is implemented as an if-else logic.  See its implementation in the Matlab function (Torque_Constraints) See figure 2 below for its description. Note that - T<sub>th</sub> represents the Torque threshold where the driving mode switches from single to dual motor propelling or braking the vehicle motion. T<sub>tot</sub> is the optimal torque computed at each time step from the nonlinear MPC controller.
 
 <img src="./Images/rule-based-logic.png" alt="Rule-based Logic" width="500">
 Figure 2: Rule-based Logic
