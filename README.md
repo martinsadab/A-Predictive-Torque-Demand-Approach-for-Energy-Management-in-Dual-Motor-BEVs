@@ -58,6 +58,13 @@ Figure 2: Rule-based Logic
 ## Results
 <img src="./Images/energyWLTPC3.png" alt="Energy performance" width="500">       <img src="./Images/energyhwfet.png" alt="Energy performance" width="500">       <img src="./Images/energyftp75.png" alt="Energy performance" width="500">       <img src="./Images/energyus06.png" alt="Energy performance" width="500">
 
+## Analysis of Results
+Below is the plot showing the energy improvements in Battery state of charge and in Miles per gallon equivalent.
+
+
+## Conclusion
+
+
 ## References
 1.	A. Biswas, P. G. Anselma & A. Emadi. (2022) Real-Time Optimal Energy Management of Multimode Hybrid Electric Powertrain With Online Trainable Asynchronous Advantage Actor–Critic Algorithm. IEEE Transactions on Transportation Electrification. 8 (2), 2676–2694. 10.1109/TTE.2021.3138330. 
 2.	Angeli, D. (2012) Lecture Notes Stability and Control of Nonlinear Systems. 
