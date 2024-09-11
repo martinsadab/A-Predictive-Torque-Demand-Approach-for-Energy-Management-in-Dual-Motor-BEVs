@@ -14,7 +14,7 @@ Compared to the baseline controller, While MPC strategy alone performed well in 
 The vehicle model is based on MathWork's "Electric Vehicle 2EM" Reference application. See the link for detailed description of the model [EV Reference Application](https://uk.mathworks.com/help/autoblks/ug/electric-vehicle-reference-application.html).
 
 <img src="./Images/EV%20architecture.png" alt="Electric Vehicle Architecture" width="400">
-Figure 1: Electric Vehicle Architecture
+Figure 1: Electric Vehicle Architecture[3}
 
 ## Prediction Model
 The prediction model is the two states, two inputs and one output model state function. The states are the speed (in m/s) and battery state of charge (in Ah). The inputs are the torque supplied by the two electric motors and the output is the speed of the vehicle. The speed is the prediction model output due to the tracking requirement of the controller.
@@ -53,7 +53,7 @@ The C/GMRES solver is used to solve the nonlinear MPC problem at each time step.
 This is implemented as an if-else logic.  See its implementation in the Matlab function (Torque_Constraints) See figure 2 below for its description. Note that - T<sub>th</sub> represents the Torque threshold where the driving mode switches from single to dual motor propelling or braking the vehicle motion. T<sub>tot</sub> is the optimal torque computed at each time step from the nonlinear MPC controller.
 
 <img src="./Images/rule-based-logic.png" alt="Rule-based Logic" width="500">
-Figure 2: Rule-based Logic
+Figure 2: Rule-based Logic [25]
 
 ## Results
 <img src="./Images/energyWLTPC3.png" alt="Energy performance" width="500">       <img src="./Images/energyhwfet.png" alt="Energy performance" width="500">       <img src="./Images/energyftp75.png" alt="Energy performance" width="500">       <img src="./Images/energyus06.png" alt="Energy performance" width="500">
