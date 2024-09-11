@@ -60,7 +60,7 @@ Figure 2: Rule-based Logic
 
 ## Analysis of Results
 Below is the plot showing the energy improvements in Battery state of charge and in Miles per gallon equivalent.
-<img src="./Images/MPGe_plots.png" alt="MPGe" width="500">
+<img src="./Images/MPGe_plot.png" alt="MPGe" width="500">
 Figure 3: Energy efficiency improvement in Miles per gallon equivalent (MPGe) 
 
 ## Conclusion
