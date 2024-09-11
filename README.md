@@ -56,7 +56,7 @@ This is implemented as an if-else logic.  See its implementation in the Matlab f
 Figure 2: Rule-based Logic
 
 ## Results
-<img src="./Images/energywltpc3.png" alt="Energy performance" width="500">       <img src="./Images/energywltpc3.png" alt="Energy performance" width="500">       <img src="./Images/energywltpc3.png" alt="Energy performance" width="500">       <img src="./Images/energywltpc3.png" alt="Energy performance" width="500">
+<img src="./Images/energyWLTPC3.png" alt="Energy performance" width="500">       <img src="./Images/energyhwfet.png" alt="Energy performance" width="500">       <img src="./Images/energyftp75.png" alt="Energy performance" width="500">       <img src="./Images/energyus06.png" alt="Energy performance" width="500">
 
 ## References
 1.	A. Biswas, P. G. Anselma & A. Emadi. (2022) Real-Time Optimal Energy Management of Multimode Hybrid Electric Powertrain With Online Trainable Asynchronous Advantage Actor–Critic Algorithm. IEEE Transactions on Transportation Electrification. 8 (2), 2676–2694. 10.1109/TTE.2021.3138330. 
