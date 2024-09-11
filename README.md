@@ -14,6 +14,7 @@ Compared to the baseline controller, While MPC strategy alone performed well in 
 The vehicle model is based on MathWork's "Electric Vehicle 2EM" Reference application. See the link for detailed description of the model [EV Reference Application](https://uk.mathworks.com/help/autoblks/ug/electric-vehicle-reference-application.html).
 
 <img src="./Images/EV%20architecture.png" alt="Electric Vehicle Architecture" width="400">
+Figure 1: Electric Vehicle Architecture
 
 ## Prediction Model
 The prediction model is the two states, two inputs and one output model state function. The states are the speed (in m/s) and battery state of charge (in Ah). The inputs are the torque supplied by the two electric motors and the output is the speed of the vehicle. The speed is the prediction model output due to the tracking requirement of the controller.
