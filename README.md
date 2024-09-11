@@ -41,7 +41,7 @@ Where u<sub>1</sub> =  T<sub>em1</sub> and u<sub>2</sub> =  T<sub>em2</sub>
 
 ### Normal load (F<sub>z</sub>) Constraint
 
-### Slip ratio (&sigma) Constraint
+### Slip ratio (&sigma;) Constraint
 
 ## Solver
 The C/GMRES solver is used to solve the nonlinear MPC problem at each time step.
