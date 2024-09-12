@@ -1,4 +1,6 @@
-# A Predictive Torque Demand Approach for Energy Management in Dual Motor BEVs
+# Solution to the MATLAB/Simulink Challenge Project:
+# Title: Energy Management for a 2 Motor Battery Electric Vehicle Using Model Predictive Control (Project Number: 246)
+
 In this project, two separate strategies were deployed with the second building upon the first. 
 
 First nonlinear model predictive controller is designed to optimally distribute torque in a 2 motor battery electric vehicle. This performs a 50:50 split of the torque supplied by the motors. 
