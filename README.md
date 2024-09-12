@@ -1,5 +1,5 @@
 # Energy Management for a Dual Motor Battery Electric Vehicle using Model Predictive Control
-In this project, two separate strategy was deployed with the second building upon the first. 
+In this project, two separate strategies were deployed with the second building upon the first. 
 
 First nonlinear model predictive controller is designed to optimally distribute torque in a 2 motor battery electric vehicle. This performs a 50:50 split of the torque supplied by the motors. 
 
@@ -11,10 +11,10 @@ However on incorporating the rule-based logic with the MPC, the controller perfo
 Compared to the baseline controller, While MPC strategy alone performed well in urban and/or aggressive drive cycle it didn't in highway/constant speed drive cycles. However, a combination of MPC and a rule-based approach showed improvements in all drive cycle.
 
 ## Model Description
-The vehicle model is based on MathWork's "Electric Vehicle 2EM" Reference application. See the link for detailed description of the model [EV Reference Application](https://uk.mathworks.com/help/autoblks/ug/electric-vehicle-reference-application.html).
+The vehicle model is based on MathWork's "Electric Vehicle 2EM" Reference application. [EV Reference Application](https://uk.mathworks.com/help/autoblks/ug/electric-vehicle-reference-application.html).
 
 <img src="./Images/EV%20architecture.png" alt="Electric Vehicle Architecture" width="400">
-Figure 1: Electric Vehicle Architecture[3}
+Figure 1: Electric Vehicle Architecture[3]
 
 ## Prediction Model
 The prediction model is the two states, two inputs and one output model state function. The states are the speed (in m/s) and battery state of charge (in Ah). The inputs are the torque supplied by the two electric motors and the output is the speed of the vehicle. The speed is the prediction model output due to the tracking requirement of the controller.
@@ -60,7 +60,7 @@ This is implemented as an if-else logic.  See its implementation in the Matlab f
 Figure 2: Rule-based Logic [25]
 
 ## Results
-<img src="./Images/energyWLTPC3.png" alt="Energy performance" width="500">       <img src="./Images/energyhwfet.png" alt="Energy performance" width="500">       <img src="./Images/energyftp75.png" alt="Energy performance" width="500">       <img src="./Images/energyus06.png" alt="Energy performance" width="500">
+<img src="./Images/energyWLTPC3.png" alt="Energy performance" width="400">       <img src="./Images/energyhwfet.png" alt="Energy performance" width="400">       <img src="./Images/energyftp75.png" alt="Energy performance" width="400">       <img src="./Images/energyus06.png" alt="Energy performance" width="400">
 
 Figure 3: Energy performance comparison between baseline, MPC and MPC+RB controllers
 ## Analysis of Results
