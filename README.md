@@ -71,7 +71,7 @@ Below is the plot showing the energy improvements in Miles per gallon equivalent
 Figure 4: Energy efficiency improvement in Miles per gallon equivalent (MPGe) compared to baseline
 
 ## Conclusion
-
+In Conclusion, MPC as a strategy can optimize the ef􀏐iciency of current IDA DM-BEV powertrain in urban settings. However, it is less likely to do the same for highway drive cycles with the current problem formulation. However, an MPC plus rule-based strategy can further improve the ef􀏐iciency of the IDA BM-BEV drive trains compared to MPC in both urban and highway settings.
 
 ## References
 1.	A. Biswas, P. G. Anselma & A. Emadi. (2022) Real-Time Optimal Energy Management of Multimode Hybrid Electric Powertrain With Online Trainable Asynchronous Advantage Actor–Critic Algorithm. IEEE Transactions on Transportation Electrification. 8 (2), 2676–2694. 10.1109/TTE.2021.3138330. 
