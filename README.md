@@ -3,7 +3,7 @@
 
 Click this link to go to the project home page [Project Link] .(https://github.com/mathworks/MATLAB-Simulink-Challenge-Project-Hub/tree/main/projects/Energy%20Management%20for%20a%202-Motor%20BEV%20using%20Model-Predictive%20Control).
 
- [Project Link]([https://uk.mathworks.com/help/autoblks/ug/electric-vehicle-reference-application.html](https://github.com/mathworks/MATLAB-Simulink-Challenge-Project-Hub/tree/main/projects/Energy%20Management%20for%20a%202-Motor%20BEV%20using%20Model-Predictive%20Control).
+ [Project Link](https://github.com/mathworks/MATLAB-Simulink-Challenge-Project-Hub/tree/main/projects/Energy%20Management%20for%20a%202-Motor%20BEV%20using%20Model-Predictive%20Control).
 
 In this project, two separate strategies were deployed with the second building upon the first. 
 
