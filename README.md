@@ -3,7 +3,7 @@
 
 Click this link to go to the project home page [Project Link](https://github.com/mathworks/MATLAB-Simulink-Challenge-Project-Hub/tree/main/projects/Energy%20Management%20for%20a%202-Motor%20BEV%20using%20Model-Predictive%20Control).
 
-To run the code, follow this detailed guideline: Click this link [How to run simulation](/How%to%run%simulation.pdf).
+To run the code, follow this detailed guideline: Click this link [How to run simulation](/How%20to%20run%20simulation.pdf).
 
 In this project, two separate strategies were deployed with the second building upon the first. 
 
